@@ -1,0 +1,41 @@
+# Composer packages
+/vendor/
+
+# sami docs
+/api-reference/
+
+# PHPCS
+/phpcs.xml
+
+# PHPUnit
+/phpunit.xml
+/tests/_reports
+
+# Sami
+/sami.phar
+
+# Common
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.idea
+
+# Created by https://www.gitignore.io/api/visualstudiocode
+# Edit at https://www.gitignore.io/?templates=visualstudiocode
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
+# End of https://www.gitignore.io/api/visualstudiocode
