@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aa7910926119391251cf0730cd09dd28",
+    "content-hash": "1cdbcab1f31c8cf9329a40d8bba16bc5",
     "packages": [
         {
             "name": "cedaro/wp-plugin",
@@ -1400,16 +1400,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "8.0.3",
+            "version": "8.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "651e95a71ff705faae24d18ef5e4c7c8c5050f9a"
+                "reference": "a7af0201285445c9c73c4bdf869c486e36b41604"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/651e95a71ff705faae24d18ef5e4c7c8c5050f9a",
-                "reference": "651e95a71ff705faae24d18ef5e4c7c8c5050f9a",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/a7af0201285445c9c73c4bdf869c486e36b41604",
+                "reference": "a7af0201285445c9c73c4bdf869c486e36b41604",
                 "shasum": ""
             },
             "require": {
@@ -1478,7 +1478,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2019-02-15T14:06:48+00:00"
+            "time": "2019-02-18T09:23:05+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
