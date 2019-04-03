@@ -56,7 +56,7 @@ abstract class AbstractPost {
 	 * Get posts.
 	 *
 	 * @param array $args Args.
-	 * @return \WP_Post[]
+	 * @return \WP_Post[]|integer[]
 	 */
 	protected function get_posts( array $args ) : array {
 		return get_posts( $args );
