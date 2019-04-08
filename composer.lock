@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3b5978c4051e8e4bdb1ecd1c174e1621",
+    "content-hash": "faa8c27fc8b243afa21ea764c3aa82b7",
     "packages": [
         {
             "name": "cedaro/wp-plugin",
@@ -1400,16 +1400,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "8.0.6",
+            "version": "8.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "925109f8bbe6dae28fbc7bb07446a53abd3b1c25"
+                "reference": "b258457b6259f1e8130a91d3065c993961721f47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/925109f8bbe6dae28fbc7bb07446a53abd3b1c25",
-                "reference": "925109f8bbe6dae28fbc7bb07446a53abd3b1c25",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/b258457b6259f1e8130a91d3065c993961721f47",
+                "reference": "b258457b6259f1e8130a91d3065c993961721f47",
                 "shasum": ""
             },
             "require": {
@@ -1452,7 +1452,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "8.0-dev"
+                    "dev-master": "8.1-dev"
                 }
             },
             "autoload": {
@@ -1478,7 +1478,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2019-03-26T14:00:24+00:00"
+            "time": "2019-04-08T05:40:17+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
