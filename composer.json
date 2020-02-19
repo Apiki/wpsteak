@@ -1,6 +1,6 @@
 {
   "name": "apiki/wpsteak",
-  "description": "Some patterns for build your own structured WordPress plugin.",
+  "description": "Patterns for building an application in WordPress.",
   "type": "library",
   "license": "GPL-2.0-only",
   "require": {
