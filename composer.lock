@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4db313d8093d39a2c437fbe3c79b425b",
+    "content-hash": "7f6ba6f1eda331a2726793acae7819c1",
     "packages": [
         {
             "name": "cedaro/wp-plugin",
@@ -1359,16 +1359,6 @@
                 "testing",
                 "xunit"
             ],
-            "funding": [
-                {
-                    "url": "https://phpunit.de/donate.html",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/sebastianbergmann",
-                    "type": "github"
-                }
-            ],
             "time": "2020-04-03T14:40:04+00:00"
         },
         {
@@ -1415,12 +1405,6 @@
             ],
             "description": "Collection of value objects that represent the PHP code units",
             "homepage": "https://github.com/sebastianbergmann/code-unit",
-            "funding": [
-                {
-                    "url": "https://github.com/sebastianbergmann",
-                    "type": "github"
-                }
-            ],
             "time": "2020-03-30T11:59:20+00:00"
         },
         {
@@ -1638,12 +1622,6 @@
                 "Xdebug",
                 "environment",
                 "hhvm"
-            ],
-            "funding": [
-                {
-                    "url": "https://github.com/sebastianbergmann",
-                    "type": "github"
-                }
             ],
             "time": "2020-03-31T12:14:15+00:00"
         },
@@ -2049,16 +2027,16 @@
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.5.4",
+            "version": "3.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "dceec07328401de6211037abbb18bda423677e26"
+                "reference": "73e2e7f57d958e7228fce50dc0c61f58f017f9f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/dceec07328401de6211037abbb18bda423677e26",
-                "reference": "dceec07328401de6211037abbb18bda423677e26",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/73e2e7f57d958e7228fce50dc0c61f58f017f9f6",
+                "reference": "73e2e7f57d958e7228fce50dc0c61f58f017f9f6",
                 "shasum": ""
             },
             "require": {
@@ -2096,7 +2074,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2020-01-30T22:20:29+00:00"
+            "time": "2020-04-17T01:09:41+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
