@@ -150,3 +150,6 @@ tmp/
 temp/
 
 # End of https://www.gitignore.io/api/node
+
+# PHP Q.A.
+phpstan-phpqa.neon
