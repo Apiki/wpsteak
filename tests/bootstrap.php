@@ -1,11 +1,3 @@
-<?php
-/**
- * PHPUnit bootstrap file.
- *
- * @package WPSteak\Test
- */
+<?php declare(strict_types = 1);
 
-/**
- * Composer autoload.
- */
 require_once dirname( __DIR__ ) . '/vendor/autoload.php';

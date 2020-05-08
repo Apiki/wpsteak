@@ -22,6 +22,9 @@ build_failure_conditions:
     - 'patches.label("Doc Comments").exists'                        # No doc comments patches allowed
     - 'patches.label("Spacing").exists'                             # No spacing patches allowed
 build:
+    environment:
+      php:
+        version: 7.4
     dependencies:
         override:
             - composer install --ignore-platform-reqs --no-interaction

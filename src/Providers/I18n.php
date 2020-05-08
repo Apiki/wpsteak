@@ -1,23 +1,10 @@
-<?php
-/**
- * I18n.
- *
- * @package WPSteak.
- */
+<?php declare(strict_types = 1);
 
 namespace WPSteak\Providers;
 
-/**
- * I18n class.
- */
-class I18n extends AbstractHookProvider {
+class I18n extends HookProvider {
 
-	/**
-	 * Register hooks.
-	 *
-	 * @return void
-	 */
-	public function register_hooks() {
+	public function register_hooks(): void {
 		if ( did_action( 'plugins_loaded' ) ) {
 			$this->load_textdomain();
 		} else {
@@ -25,16 +12,12 @@ class I18n extends AbstractHookProvider {
 		}
 	}
 
-	/**
-	 * Load textdomain.
-	 *
-	 * @return void
-	 */
-	protected function load_textdomain() {
-		$dir    = dirname( dirname( __DIR__ ) ) . '/languages';
+	protected function load_textdomain(): void {
+		$dir = dirname( dirname( __DIR__ ) ) . '/languages';
 		$domain = 'wpsteak';
 		$locale = get_locale();
 
 		load_textdomain( $domain, "{$dir}/{$domain}-{$locale}.mo" );
 	}
+
 }
