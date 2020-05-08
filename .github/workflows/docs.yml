@@ -1,0 +1,26 @@
+name: Docs
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '7.2'
+
+      - name: Generate documentation
+        run: make
+
+      - name: Deploy Surge
+        uses: yg/deploy-surge@v1.0.1
+        with:
+          SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
+          DOMAIN_NAME: wpsteak-api.surge.sh
+          BUILD_DIRECTORY: ./api-reference/build/
