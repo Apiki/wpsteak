@@ -1,2 +1,0 @@
-# Configuration generated in phpqa
-{includes: [phar://phpstan.phar/conf/bleedingEdge.neon, vendor/szepeviktor/phpstan-wordpress/extension.neon], parameters: {level: max, inferPrivatePropertyTypeFromConstructor: true, excludes_analyse: [%currentWorkingDirectory%/node_modules, %currentWorkingDirectory%/vendor, %currentWorkingDirectory%/tests]}}
