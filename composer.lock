@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8944b8cad44143b14c7f4b51bf59cc3e",
+    "content-hash": "f97eac13bda32b8463844b15dcfe01ab",
     "packages": [
         {
             "name": "cedaro/wp-plugin",
@@ -1812,16 +1812,16 @@
         },
         {
             "name": "php-stubs/wordpress-stubs",
-            "version": "v5.4.0",
+            "version": "v5.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-stubs/wordpress-stubs.git",
-                "reference": "baab62405f6a6ac9b25ed3fe6df371d090f9bc0c"
+                "reference": "726e541337276f1648ef860efcfe7298bce3a1c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-stubs/wordpress-stubs/zipball/baab62405f6a6ac9b25ed3fe6df371d090f9bc0c",
-                "reference": "baab62405f6a6ac9b25ed3fe6df371d090f9bc0c",
+                "url": "https://api.github.com/repos/php-stubs/wordpress-stubs/zipball/726e541337276f1648ef860efcfe7298bce3a1c5",
+                "reference": "726e541337276f1648ef860efcfe7298bce3a1c5",
                 "shasum": ""
             },
             "replace": {
@@ -1848,7 +1848,7 @@
                 "static analysis",
                 "wordpress"
             ],
-            "time": "2020-03-31T21:58:11+00:00"
+            "time": "2020-04-29T23:43:44+00:00"
         },
         {
             "name": "phpcompatibility/php-compatibility",
