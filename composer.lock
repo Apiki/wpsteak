@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f97eac13bda32b8463844b15dcfe01ab",
+    "content-hash": "b1f11ec025f8afbc5d070c4c4bc3681d",
     "packages": [
         {
             "name": "cedaro/wp-plugin",
@@ -3712,16 +3712,16 @@
         },
         {
             "name": "slevomat/coding-standard",
-            "version": "6.3.5",
+            "version": "6.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/slevomat/coding-standard.git",
-                "reference": "29995403896ff25fe08c44a60e2921ac0e6a419c"
+                "reference": "500f55b5e2dee1dcef8e88f2038990acdba29f1c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/29995403896ff25fe08c44a60e2921ac0e6a419c",
-                "reference": "29995403896ff25fe08c44a60e2921ac0e6a419c",
+                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/500f55b5e2dee1dcef8e88f2038990acdba29f1c",
+                "reference": "500f55b5e2dee1dcef8e88f2038990acdba29f1c",
                 "shasum": ""
             },
             "require": {
@@ -3765,7 +3765,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-13T14:59:55+00:00"
+            "time": "2020-05-27T06:28:47+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
