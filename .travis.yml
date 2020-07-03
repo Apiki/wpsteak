@@ -4,9 +4,10 @@ php:
 
 branches:
   only:
-  - master
+    - master
 
 script:
+  - vendor/bin/phpstan analyze src/
   - make
 
 deploy:
