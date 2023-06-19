@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d30717274910a4a4e9202ee879658e6c",
+    "content-hash": "8d5c0cbeb49e70894b9ab6372ea04f87",
     "packages": [
         {
             "name": "cedaro/wp-plugin",
@@ -179,13 +179,13 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Amp\\": "lib"
-                },
                 "files": [
                     "lib/functions.php",
                     "lib/Internal/functions.php"
-                ]
+                ],
+                "psr-4": {
+                    "Amp\\": "lib"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -256,12 +256,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Amp\\ByteStream\\": "lib"
-                },
                 "files": [
                     "lib/functions.php"
-                ]
+                ],
+                "psr-4": {
+                    "Amp\\ByteStream\\": "lib"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1041,6 +1041,20 @@
                 "constructor",
                 "instantiate"
             ],
+            "funding": [
+                {
+                    "url": "https://www.doctrine-project.org/sponsorship.html",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.patreon.com/phpdoctrine",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Finstantiator",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2019-10-21T16:45:58+00:00"
         },
         {
@@ -1092,13 +1106,13 @@
             ],
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "Edge\\QA\\": "src"
-                },
                 "files": [
                     "src/report.php",
                     "src/paths.php"
-                ]
+                ],
+                "psr-4": {
+                    "Edge\\QA\\": "src"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1393,12 +1407,12 @@
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "DeepCopy\\": "src/DeepCopy/"
-                },
                 "files": [
                     "src/DeepCopy/deep_copy.php"
-                ]
+                ],
+                "psr-4": {
+                    "DeepCopy\\": "src/DeepCopy/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1835,24 +1849,25 @@
         },
         {
             "name": "php-stubs/wordpress-stubs",
-            "version": "v5.4.2",
+            "version": "v5.9.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-stubs/wordpress-stubs.git",
-                "reference": "38b0963698ca5858658a5b09198062411f22932a"
+                "reference": "6a18d938d0aef39d091505a4a35b025fb6c10098"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-stubs/wordpress-stubs/zipball/38b0963698ca5858658a5b09198062411f22932a",
-                "reference": "38b0963698ca5858658a5b09198062411f22932a",
+                "url": "https://api.github.com/repos/php-stubs/wordpress-stubs/zipball/6a18d938d0aef39d091505a4a35b025fb6c10098",
+                "reference": "6a18d938d0aef39d091505a4a35b025fb6c10098",
                 "shasum": ""
             },
-            "replace": {
-                "giacocorsiglia/wordpress-stubs": "*"
-            },
             "require-dev": {
-                "giacocorsiglia/stubs-generator": "^0.5.0",
-                "php": "~7.1"
+                "nikic/php-parser": "< 4.12.0",
+                "php": "~7.3 || ~8.0",
+                "php-stubs/generator": "^0.8.3",
+                "phpdocumentor/reflection-docblock": "^5.3",
+                "phpstan/phpstan": "^1.10.12",
+                "phpunit/phpunit": "^9.5"
             },
             "suggest": {
                 "paragonie/sodium_compat": "Pure PHP implementation of libsodium",
@@ -1871,7 +1886,7 @@
                 "static analysis",
                 "wordpress"
             ],
-            "time": "2020-06-11T14:56:54+00:00"
+            "time": "2023-05-18T04:34:27+00:00"
         },
         {
             "name": "phpcompatibility/php-compatibility",
@@ -2230,6 +2245,7 @@
             ],
             "description": "A tool for quickly measuring the size of a PHP project.",
             "homepage": "https://github.com/sebastianbergmann/phploc",
+            "abandoned": true,
             "time": "2020-02-28T05:42:22+00:00"
         },
         {
@@ -2336,12 +2352,12 @@
             ],
             "type": "library",
             "autoload": {
-                "psr-0": {
-                    "Hal\\": "./src/"
-                },
                 "files": [
                     "./src/functions.php"
-                ]
+                ],
+                "psr-0": {
+                    "Hal\\": "./src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -2854,6 +2870,7 @@
             "keywords": [
                 "tokenizer"
             ],
+            "abandoned": true,
             "time": "2020-02-07T06:19:00+00:00"
         },
         {
@@ -2917,11 +2934,11 @@
                 }
             },
             "autoload": {
-                "classmap": [
-                    "src/"
-                ],
                 "files": [
                     "src/Framework/Assert/Functions.php"
+                ],
+                "classmap": [
+                    "src/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3347,6 +3364,7 @@
             ],
             "description": "FinderFacade is a convenience wrapper for Symfony's Finder component.",
             "homepage": "https://github.com/sebastianbergmann/finder-facade",
+            "abandoned": true,
             "time": "2020-02-08T06:07:58+00:00"
         },
         {
@@ -3544,6 +3562,7 @@
             ],
             "description": "Copy/Paste Detector (CPD) for PHP code.",
             "homepage": "https://github.com/sebastianbergmann/phpcpd",
+            "abandoned": true,
             "time": "2020-02-22T06:03:17+00:00"
         },
         {
@@ -4393,12 +4412,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Ctype\\": ""
-                },
                 "files": [
                     "bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Ctype\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -4465,12 +4484,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Mbstring\\": ""
-                },
                 "files": [
                     "bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -4535,12 +4554,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Php73\\": ""
-                },
                 "files": [
                     "bootstrap.php"
                 ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php73\\": ""
+                },
                 "classmap": [
                     "Resources/stubs"
                 ]
@@ -4607,12 +4626,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Php80\\": ""
-                },
                 "files": [
                     "bootstrap.php"
                 ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php80\\": ""
+                },
                 "classmap": [
                     "Resources/stubs"
                 ]
@@ -4960,6 +4979,7 @@
             ],
             "description": "The classes contained within this repository extend the standard DOM to use exceptions at all occasions of errors instead of PHP warnings or notices. They also add various custom methods and shortcuts for convenience and to simplify the usage of DOM.",
             "homepage": "https://github.com/theseer/fDOMDocument",
+            "abandoned": true,
             "time": "2017-06-30T11:53:12+00:00"
         },
         {
@@ -5139,13 +5159,13 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Psalm\\": "src/Psalm/"
-                },
                 "files": [
                     "src/functions.php",
                     "src/spl_object_id.php"
-                ]
+                ],
+                "psr-4": {
+                    "Psalm\\": "src/Psalm/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -5169,12 +5189,12 @@
             "version": "1.9.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/webmozart/assert.git",
+                "url": "https://github.com/webmozarts/assert.git",
                 "reference": "9dc4f203e36f2b486149058bade43c851dd97451"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/9dc4f203e36f2b486149058bade43c851dd97451",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/9dc4f203e36f2b486149058bade43c851dd97451",
                 "reference": "9dc4f203e36f2b486149058bade43c851dd97451",
                 "shasum": ""
             },
@@ -5218,12 +5238,12 @@
             "version": "4.1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/webmozart/glob.git",
+                "url": "https://github.com/webmozarts/glob.git",
                 "reference": "3cbf63d4973cf9d780b93d2da8eec7e4a9e63bbe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/glob/zipball/3cbf63d4973cf9d780b93d2da8eec7e4a9e63bbe",
+                "url": "https://api.github.com/repos/webmozarts/glob/zipball/3cbf63d4973cf9d780b93d2da8eec7e4a9e63bbe",
                 "reference": "3cbf63d4973cf9d780b93d2da8eec7e4a9e63bbe",
                 "shasum": ""
             },
@@ -5304,6 +5324,7 @@
                 }
             ],
             "description": "A robust cross-platform utility for normalizing, comparing and modifying file paths.",
+            "abandoned": "symfony/filesystem",
             "time": "2015-12-17T08:42:14+00:00"
         },
         {
